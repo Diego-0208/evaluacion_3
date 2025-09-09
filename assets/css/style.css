@@ -1,0 +1,51 @@
+/* Selector por etiqueta */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #348186;
+}
+
+/* Selector por clase */
+.card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  max-width: 250px;
+  background-color: beige;
+}
+
+/* Selector por ID */
+#titulo-principal {
+  text-align: center;
+  color: darkblue;
+}
+
+/* Ajustar tamaño de imágenes dentro de .card */
+.card img {
+  width: 100%;
+  /* ocupa el ancho de la tarjeta */
+  max-width: 250px;
+  /* no más de 250px */
+  border-radius: 8px; 
+
+}
+
+.card.adoptado {
+  opacity: 0.6;
+  pointer-events: none;
+  border: 2px dashed #bbb;
+}  
+
+footer {
+  text-align: center;       /* Centra el texto */
+  margin-top: 2rem;         /* Espacio arriba del footer */
+  padding: 1rem;            /* Espacio interno del cuadro */
+  border: 2px solid #ccc;   /* Borde del cuadro */
+  border-radius: 8px;       /* Bordes redondeados */
+  background-color: #fff;   /* Color de fondo del cuadro */
+  width: 90%;               /* Que no ocupe todo el ancho */
+  max-width: 600px;         /* Máximo ancho */
+  margin-left: auto;        /* Centra horizontalmente */
+  margin-right: auto;       /* Centra horizontalmente */
+}
