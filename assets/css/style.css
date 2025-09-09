@@ -2,7 +2,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #348186;
+  background: #e6f7f7;
 }
 
 /* Selector por clase */
@@ -12,13 +12,13 @@ body {
   margin: 1rem;
   border-radius: 8px;
   max-width: 250px;
-  background-color: beige;
+  background-color: #ffffff;
 }
 
 /* Selector por ID */
 #titulo-principal {
   text-align: center;
-  color: darkblue;
+  color: #0077b6;
 }
 
 /* Ajustar tamaño de imágenes dentro de .card */
@@ -48,4 +48,18 @@ footer {
   max-width: 600px;         /* Máximo ancho */
   margin-left: auto;        /* Centra horizontalmente */
   margin-right: auto;       /* Centra horizontalmente */
+}
+
+/* Antes tenías section { display: flex } → eso rompe la estructura */
+
+section {
+  margin-bottom: 2rem; /* solo espacio entre secciones */
+}
+
+/* Nuevo contenedor para alinear cartas */
+.contenedor {
+  display: flex;           /* activa flexbox */
+  justify-content: center; /* centra las cartas */
+  gap: 15px;               /* espacio entre cartas */
+  flex-wrap: wrap;         /* si no caben, bajan a otra fila */
 }
