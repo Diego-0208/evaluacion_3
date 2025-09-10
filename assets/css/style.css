@@ -50,7 +50,7 @@ footer {
   margin-right: auto;       /* Centra horizontalmente */
 }
 
-/* Antes tenías section { display: flex } → eso rompe la estructura */
+
 
 section {
   margin-bottom: 2rem; /* solo espacio entre secciones */
